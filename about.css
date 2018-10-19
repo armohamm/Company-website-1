@@ -1,0 +1,34 @@
+
+.body {
+    font-family: 'Niramit', sans-serif;
+}
+
+.jumbotron {
+    background-color: white;
+
+}
+
+.my-title {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.bottom {
+    padding-top: 20px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.col {
+    padding: 20px;
+}
