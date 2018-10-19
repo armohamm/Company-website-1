@@ -5,18 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="homestyle.css">
     <title>Penguine Consulting</title>
 </head>
 <body>
     <header>
-<!-- this is where the menu bar goes -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top d-flex justify-content-between">
+            <div>
+                <a class="navbar-brand"><img src=""></a>
+                <span class="navbar-text">Penguine Consulting, Inc.</span>
+            </div>  
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign-up</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-            
+        <div id="home">
+            <div class="landing-text">
+                    <h1>PenguinE</h1>
+                    <h3>Consulting for all your penguin needs</h3>
+            </div>
+        </div>
+
+        <div class="padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="img/Arctic-cruise.png">
+                    </div>
+                    <div class="col-sm-8 text-center">
+                        <h2>Penguin Expeditions</h2>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fixed"></div>
+
+        <div class="padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <h4>Built with Sass</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/sass.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <h4>And Less</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <img src="img/less.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
+
+        <div class="padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h4>Here's the cool thing about Bootstrap...</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque perspiciatis incidunt quos eos tenetur eveniet magni corrupti quam nulla cumque soluta consequuntur dignissimos nesciunt delectus, beatae facere ut illum.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/bootstrap2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
     </main>
     <footer>
-
+    <div class="footer">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark static-bottom d-flex justify-content-center mx-md-auto">
+                  <span class="navbar-text footer-text">Penquin Consulting, Inc. &copy 2018 </span>
+            </nav>
+    </div>
     </footer>
 </body>
 </html>
