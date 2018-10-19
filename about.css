@@ -5,6 +5,7 @@
 
 .jumbotron {
     background-color: white;
+    padding-top: 150px;
 
 }
 
@@ -27,8 +28,31 @@
 
 .card {
     margin: 0 auto;
+    border: 0px solid black;
+    height: 500px;
+
 }
 
 .col {
     padding: 20px;
 }
+
+.card-title {
+    text-align: center;
+    border-bottom: 1px solid black; 
+}
+
+.job-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.my-title {
+    border-bottom: 2px solid black;
+}
+
+
+
