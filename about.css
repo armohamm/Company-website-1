@@ -5,7 +5,24 @@
 
 .jumbotron {
     background-color: white;
+    margin-top: 120px;
+    /* padding-top: 700px; */
+    height: 850px;
+    background: url(background-about.jpg);
+    background-attachment: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.text-container {
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    right: 3%;
+   
 }
 
 .my-title {
@@ -27,8 +44,34 @@
 
 .card {
     margin: 0 auto;
+    border: 0px solid black;
+    height: 500px;
+
 }
 
 .col {
     padding: 20px;
 }
+
+.card-title {
+    text-align: center;
+    border-bottom: 1px solid black; 
+}
+
+.job-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.my-title {
+    border-bottom: 2px solid black;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 300px;
+}
+
